@@ -1,0 +1,25 @@
+body {
+    background-color: papayawhip;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+span {
+    border-bottom: 2px solid black;
+    padding: 4px;
+    margin: 20px;
+}
+
+button {
+    margin: 20px 0;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
