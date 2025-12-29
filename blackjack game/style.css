@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgreen;
+    color: whitesmoke;
+    font-family: "PT Sans";
+}
+
+.header {
+    display: grid;
+    place-content: center;
+    background-color: darkgreen;
+    margin: 1vw;
+    padding: 1vh;
+    border: 2px solid goldenrod;
+    box-shadow: 0 0 5px black;
+}
+
+.header__h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-family: "BBH Hegarty";
+    color: goldenrod;
+}
+
+.main {
+    display: grid;
+    place-content: center;
+    margin: 5vw;
+    padding: 1vh;
+}
+
+#message-el {
+    font-size: 2rem;
+    font-style: italic;
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+.body-cont {
+    display: grid;
+    place-content: left;
+    padding: 10px;
+    font-size: 1.3rem;
+    margin: 3vh;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+}
+
+.start-game-btn {
+    background-color: goldenrod;
+    padding: 3vh;
+    /* margin-top: 20vh; */
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    box-shadow: 0 0 5px white;
+    cursor: pointer;
+    width: 50vw;
+    border-radius: 10px;
+    
+}
+
+.start-game-btn:hover, .start-game-btn:focus {
+    background-color: green;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 10px whitesmoke;
+    color: whitesmoke;
+}
+
+.start-game-btn:active {
+    background-color: red;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 10px whitesmoke;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 1rem;
+    }
+    .header__h1 {
+        font-size: 2rem;
+    }
+    .start-game-btn {
+        font-size: 1.3rem;
+        width: 50vw;
+    }
+    #message-el {
+        font-size: 2rem;
+    }
+    .body-cont {
+        font-size: 1.5rem;
+    }
+}
+
+/* #player-el {
+    border: 2px solid whitesmoke;
+    padding: 1vw;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3vh;
+} */
