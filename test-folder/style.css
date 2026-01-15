@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pokemonName {
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+}
+
